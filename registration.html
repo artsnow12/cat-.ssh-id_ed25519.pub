@@ -1,32 +1,43 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Form</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration - GREENSHOP</title>
+<link rel="stylesheet" href="styles/style.css">
 </head>
+<body style="font-family: 'YourCustomFont', Arial, sans-serif; background-color: #f0f0f0; padding: 20px;">
 
-<body>
+<h2 style="text-align: center; color: #009933;">Registration Form</h2>
 
-    <header>
-        <h1>Registration</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="registration.html">Registration</a></li>
-            </ul>
-        </nav>
-    </header>
+<form action="#" method="post" style="max-width: 400px; margin: 0 auto; background-color: #ffffff; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);">
+  <div style="margin-bottom: 20px;">
+    <label for="fullname" style="display: block; font-weight: bold;">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+  </div>
+  <div style="margin-bottom: 20px;">
+    <label for="email" style="display: block; font-weight: bold;">Email:</label>
+    <input type="email" id="email" name="email" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+  </div>
+  <div style="margin-bottom: 20px;">
+    <label for="password" style="display: block; font-weight: bold;">Password:</label>
+    <input type="password" id="password" name="password" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+  </div>
+  <div style="margin-bottom: 20px;">
+    <label for="confirm_password" style="display: block; font-weight: bold;">Confirm Password:</label>
+    <input type="password" id="confirm_password" name="confirm_password" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+  </div>
+  <div style="text-align: center; margin-bottom: 20px;">
+    <button type="submit" style="padding: 10px 20px; background-color: #009933; color: #ffffff; border: none; border-radius: 5px; cursor: pointer;">Register</button>
+  </div>
+</form>
 
-    <section class="main-content">
-        <h2>Register Here</h2>
-        <form action="#" method="post">
-
-        </form>
-    </section>
+<div style="text-align: center;">
+  <p><img src="images/google-icon.png" alt="Google Icon" style="width: 20px; vertical-align: middle;"> Continue with Google</p>
+  <p><img src="images/facebook-icon.png" alt="Facebook Icon" style="width: 20px; vertical-align: middle;"> Continue with Facebook</p>
+  <p>Or register with</p>
+</div>
 
 </body>
-
 </html>
