@@ -1,39 +1,8 @@
+@font-face {
+  font-family: 'YourCustomFont';
+  src: url('../fonts/YourCustomFont-Regular.ttf') format('truetype');
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #009933;
-
-    color: #fff;
-    padding: 20px;
-}
-
-header h1 {
-    margin: 0;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-nav ul li:last-child {
-    margin-right: 0;
-}
-
-.main-content {
-    padding: 20px;
-}
-
-h2 {
-    color: #009933;
-
+  font-family: 'YourCustomFont', Arial, sans-serif;
 }
